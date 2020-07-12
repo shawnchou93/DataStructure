@@ -1,3 +1,11 @@
+/*
+ * @Author: Shawn-Bo Zhou
+ * @Date: 2020-07-05 18:07:18
+ * @Description:
+ *      动态链表的优点：1. 灵活的长度，需要节点就请求空间，不需要就释放空间，不像数组需要固定长度；
+ *                      2. 节点离散存储，不需要一大片连续的空间。
+ */ 
+
 #include "LinkedList.h"
 
 using namespace std;
@@ -5,6 +13,12 @@ using namespace std;
 
 namespace List{
 
+/**
+ * @Description: Constroctor function
+ * @Parameters: 
+ * @Return: 
+ * @Author: Shawn-Bo Zhou
+ */
 LinkedList::LinkedList(int len, int* arr = NULL) //使用数组中的值来初始化链表
 {
     if (len<0 || arr == NULL)

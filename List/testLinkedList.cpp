@@ -1,3 +1,9 @@
+/*
+ * @Author: Shawn-Bo Zhou
+ * @Date: 2020-07-08 22:27:01
+ * @Description: 用于测试动态链表
+ */ 
+
 #include "LinkedList.h"
 #include "ListDataType.h"
 
