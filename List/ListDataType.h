@@ -26,5 +26,8 @@ typedef struct SllNode
 
 // SllNODE StaticLinkedList[MAXLISTLENGTH];
 
+// for circular linked list
+
+
 
 #endif // _LISTDATATYPE_H_
